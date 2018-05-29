@@ -8,9 +8,9 @@ from pprint import pprint
 from twilio.twiml.messaging_response import MessagingResponse
 app = Flask(__name__)
 app.config['MONGO_DBNAME'] = 'mymongodb'
-app.config['MONGO_URI'] = 'mongodb://hemantuser:hemantuser@ds012578.mlab.com:12578/mymongodb'
+app.config['MONGO_URI'] = 'mongodb://hemantuser:hemantuser@ds0*****.mlab............../mongodb' #hidden
 mongo = PyMongo(app)
-subscription_key = "ffb7ffe983934ba0a89d7160a14e0b86"
+subscription_key = "YOUR_SUBSCRIPTION_KEY"
 text_analytics_base_url = "https://westcentralus.api.cognitive.microsoft.com/text/analytics/v2.0/"
 sentiment_api_url = text_analytics_base_url + "sentiment"
 print(sentiment_api_url)
