@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+{% block body %}
+<br>LOGGED IN
+
+<br><br><br>
+<nav>
+  <li class="nav-item active">
+    <a class="nav-link" href="/logout">Logout<span class="sr-only">(current)</span></a>
+  </li>
+</nav>
+
+<br><br><br><br>
+<form method=POST action="{{ url_for('sends') }}">
+Enter name:<input type="text" name="namee" ><br>
+Enter Phone number:<input type="number" name="clientnumber" min="10" placeholder="10 digit"><br>Coke Drink Flavour
+<select name="producttype">
+  <option value="Vanilla">Vanilla</option>
+  <option value="Cherry">Cherry</option>
+  <option value="Lime">Lime</option>
+</select><br>
+<button type="submit" class="btn btn-primary ">Send sms</button>
+
+</form>
+
+
+
+
+
+
+
+{%endblock%}

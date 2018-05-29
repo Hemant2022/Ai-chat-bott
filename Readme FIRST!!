@@ -1,0 +1,33 @@
+
+Hello ,
+
+Thank You for reviewing my project .In this project i have Created a Dashboard Web site using HTML and connected it with the a couple of APIs. Here are some details: 
+
+I was not able to get the twilio original number though i have coded as it was a True number and it can be checked by putting a Paid Twilio Account credentials. Front End may not be neat , but everthing works as specified .
+
+Steps:
+
+a) User registers First
+
+b) logs in 
+
+c) sends sms 
+
+1) Templates folder has templates that are linked with flask .
+
+2) App.py is the main file .
+
+3) Message sent is a picture that shows the message sent as queued because i have a trial account , Moreover it shows the message body whos credentials i have requested from the dashboard successfully.
+
+4) Sentiment verification shows the working of the sentiment part successfully.
+
+5) Score print shows the score that was generated using the Microsoft Api.
+
+6) Dash gives a view of the dashboard.
+
+
+
+
+
+Hemant Kapoor
+hkapoor@usc.edu
